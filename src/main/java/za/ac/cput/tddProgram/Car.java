@@ -3,15 +3,14 @@ package za.ac.cput.tddProgram;
 /**
  * Created by student on 2015/02/26.
  */
-public class Car extends Vehicle {
+public class Car {
 
    private String v_type;
 
     public Car() {
     }
 
-    public Car(String v_maker, String v_model, int v_year, String v_type) {
-        super(v_maker, v_model, v_year);
+    public Car(String v_type) {
         this.v_type = v_type;
     }
 
